@@ -1,0 +1,52 @@
+Instalei o nojdejs 7 pelo apt-get
+https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+
+Rodei o nmp init para criar o package.json
+
+Rodei os seguintes comandos para instalar bibliotecas no projeto:
+npm install hapi --save
+npm install bluebird --save
+npm install joi --save
+npm install require-directory --save
+npm install lodash --save
+
+Instalei o git no linux:
+apt-get install git
+
+
+
+========================================
+Talvez seja útil:
+npm install hapi --save
+
+
+
+
+{
+  "name": "app-1",
+  "version": "0.0.0",
+  "description": "My first NodeJs app structure.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "my-first-nodejs-app"
+  ],
+  "author": "Eduardo A. Fontana (fontanadnb@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "hapi": "^11.1.2",
+    "joi": "^7.0.1",
+    "lodash": "^4.11.1",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "http-as-promised": "^1.1.0"
+  }
+}
